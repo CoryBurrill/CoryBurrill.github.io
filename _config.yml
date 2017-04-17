@@ -1,0 +1,21 @@
+# Site settings
+title: Cory Burrill's Blog
+header-img: img/home-bg.png
+email: coryburrill@gmail.com
+copyright_name: CoryBurrill
+description: > # this means to ignore newlines until "baseurl:"
+  A Little About Me and My Adventures In Learning To Code
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: coryburrill
+github_username:  CoryBurrill
+learn_profile: CoryBurrill
+email_username: coryburrill@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
